@@ -1,0 +1,3 @@
+package {'wget':
+  ensure =>'present'
+}
