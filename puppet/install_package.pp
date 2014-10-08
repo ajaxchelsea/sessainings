@@ -1,3 +1,12 @@
+Package {
+  loglevel =>'debug',
+  allow_virtual =>false
+}
+
 package {'wget':
-  ensure =>'present'
+  ensure =>'present',
+}
+
+package {'tree':
+  ensure =>'present',
 }
